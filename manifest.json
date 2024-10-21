@@ -1,0 +1,20 @@
+{
+  "short_name": "SKIBIDI",
+  "name": "Skibidi Test",
+  "icons": [
+    {
+      "src": "/skibidi.jpg",
+      "sizes": "188x188",
+      "type": "image/jpg"
+    },
+    {
+      "src": "/skibidi.jpg",
+      "sizes": "188x188",
+      "type": "image/jpg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

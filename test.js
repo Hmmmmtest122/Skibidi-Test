@@ -1,38 +1,40 @@
-alert("KILL ALL LEFTISTS AND SATANISTS LONG LIVE JESUS CHRIST AMEN!")
+alert("KILL ALL SATANISTS KILL ALL LEFTIST GLORY TO JESUS, AMEN")
+var rate = document.getElementById("1rate");
+var btn = document.getElementById("btn");
+var idk = document.getElementById("idk");
+var idk2 = document.getElementById("idk2");
+// LORD FORGIVE ME 
+var skibidi2 = document.getElementById("skibidi2");
 
-rate = document.getElementById("1rate")
-btn = document.getElementById("btn")
-idk = document.getElmentById("idk")
-idk2 = document.getElementById("idk2")
-//JESUS PLS FORGIVE ME
-//skibidi = document.getElementById("skibidi")
-//is skibidi a input or a label?(Ghostwriter: )
-skibidi2=document.getElementById("skibidi2")
+btn.addEventListener("click", func);
 
-btn.addEventListener("click", func)
-function func(){
-  if (rate.value > 10){
-    alert("Can't be higher than 10")
-    return}
-  if (rate.value <1){
-    alert("Can't be lower than 1")
-    return}
-  if (rate.value===null){
-    alert("Please Rate Skibidi Toilet")
-    return
-  
+function func() {
+  if (rate.value > 10) {
+    alert("Can't be higher than 10");
+    return;
   }
-  var rating = rate.value
-  rating = rating*100/10
-  if (idk.checked){
-    rating =+ 0.5
+  if (rate.value < 1) {
+    alert("Can't be lower than 1");
+    return;
   }
-  if (idk2.checked){
-    rating =+ 0.5
+  if (rate.value === "") {
+    alert("Please Rate Skibidi Toilet");
+    return;
   }
-  if (skibidi2.checked){
-    rating =+ 100
+
+  var rating = rate.value;
+  rating = rating * 100 / 10;
+
+  if (idk.checked) {
+    rating += 0.5;
   }
-  alert("Your rating is " + rating%1000+"/100%")
+  if (idk2.checked) {
+    rating += 0.5;
   }
-  
+  if (skibidi2.checked) {
+    rating += 100;
+  }
+
+  alert("Your rating is " + (rating % 1000) + "/100%");
+}
+

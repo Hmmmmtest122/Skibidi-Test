@@ -4,7 +4,8 @@ rate = document.getElementById("1rate")
 btn = document.getElementById("btn")
 idk = document.getElmentById("idk")
 idk2 = document.getElementById("idk2")
-skibidi = document.getElementById("skibidi")
+//JESUS PLS FORGIVE ME
+//skibidi = document.getElementById("skibidi")
 //is skibidi a input or a label?(Ghostwriter: )
 skibidi2=document.getElementById("skibidi2")
 
@@ -30,7 +31,7 @@ function func(){
     rating =+ 0.5
   }
   if (skibidi2.checked){
-    rating += 100
+    rating =+ 100
   }
   alert("Your rating is " + rating%1000+"/100%")
   }

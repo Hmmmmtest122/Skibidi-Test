@@ -4,6 +4,8 @@ var btn = document.getElementById("btn");
 var idk = document.getElementById("idk");
 var idk2 = document.getElementById("idk2");
 var skibidi2 = document.getElementById("skibidi2");
+var yes = document.getElementById("yes");
+var not = document.getElementById("not");
 
 btn.addEventListener("click", func);
 
@@ -34,6 +36,13 @@ function func() {
     }
     if (skibidi2.checked) {
         rating += 100;
+    }
+
+    if (yes.checked ){
+        rating += 100;
+    }
+    if (not.checked){
+        rating -= 50;
     }
     let precentage= (rating - 1000) / (1000) * 100
     alert("Your rating is " + precentage + "/100%");

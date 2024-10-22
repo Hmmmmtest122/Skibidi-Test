@@ -2,7 +2,7 @@
 
 startButton = document.getElementById("start");
 
-startButton.addEventListener("click", quiz())
+startButton.addEventListener("click", quiz)
 function quiz(){
   //redirect to quiz page 
   window.location.href = "test.html";

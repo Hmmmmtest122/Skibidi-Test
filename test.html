@@ -1,27 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<body>
-<p>Quiz Started</p>
-<p>Question 1): What whould you rate skibidi toilet?</p>
-<input id="1rate" type=number placeholder="69/10 explosions" max="10" min="1"> </input>
-<p>Question 2): What happens in episode 77?</p>
-
-<fieldset>
-<div id="div1">
-<label id="label" for="idk">I don't know</label>
-
-<input id="idk" type="radio" value="idk" name="value"></input>
-</div>
-</div>
-<label id="label2" for="idkbruh">Dafuqboom</label>
-<input id="idk2"type="radio" value="idk2" name="value"></input>
-</div>
-<div>
-<label id="skibidi" for="astroSkibidi">The Astro Obliterator Toilet fires 3 consecutive shots against the Titan TV Man, which he deflects away with his Energy Blade. Titan TV Man then fires a fast Plasmatic Core Projectile against the Astro Obliterator Toilet, which destroys another of the toilet's main gun as the toilet tries to dodge.Aug 10, 2024</label>
-<input id="skibidi2" type="radio" name="value" value="skibidi2"></input>
-</div>
-</fieldset>
-<script src="test.js"></script>
-<a id="btn">Submit Test!</a>
-<link type="stylesheet" href="style.css">
-</body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skibidi Toilet Quiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body>
+    <p>Quiz Started</p>
+    <p>Question 1): What would you rate skibidi toilet?</p>
+    <input id="1rate" type="number" placeholder="69/10 explosions" max="10" min="1" required>
+
+    <p>Question 2): What happens in episode 77?</p>
+    <fieldset>
+        <div id="div1">
+            <label for="idk">I don't know</label>
+            <input id="idk" type="radio" value="idk" name="value">
+        </div>
+        <div>
+            <label for="idkbruh">Dafuqboom</label>
+            <input id="idk2" type="radio" value="idk2" name="value">
+        </div>
+        <div>
+            <label for="skibidi2">The Astro Obliterator Toilet fires 3 consecutive shots against the Titan TV Man, which he deflects away with his Energy Blade. Titan TV Man then fires a fast Plasmatic Core Projectile against the Astro Obliterator Toilet, which destroys another of the toilet's main gun as the toilet tries to dodge. Aug 10, 2024</label>
+            <input id="skibidi2" type="radio" name="value" value="skibidi2">
+        </div>
+    </fieldset>
+
+    <button id="btn">Submit Test!</button>
+
+    <script src="test.js"></script>
+</body>
+</html>

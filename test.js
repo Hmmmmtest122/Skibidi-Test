@@ -35,6 +35,6 @@ function func() {
     if (skibidi2.checked) {
         rating += 100;
     }
-
-    alert("Your rating is " + rating + "/100%");
+    let precentage= (rating - 1000) / (1000) * 100
+    alert("Your rating is " + precentage + "/100%");
 }
